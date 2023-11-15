@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .container {
+    font-size: calc(1.15rem + 0.3vw) !important;
+  }
+
+#header{
+    height: 7.9vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfdfd;
+    box-shadow: 0 0.15vw 0.38vw #f0f0f0bd;
+    margin-bottom: 5vw;
+}
+#header .fa-bell{
+    font-size: 1.5vw;
+}
+
+#header #profile-div{
+    display: flex;
+    align-items: center;
+}
+
+#profile-div>span{
+    margin-right: 0.75vw;
+    font-size: 1.05vw;
+}
+
+.user-profile-pics{
+    height: 2.78vw;
+    border-radius: 50%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+}
+
+nav ul li{
+    font-size: 1.20vw;
+}
+
+nav ul li>a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li>a:hover, nav ul li>a.active, nav ul li>a.active .nav-icon, nav ul li>a:hover .nav-icon{
+    color: orange;
+}
+
+nav ul li>a> .nav-icon{
+    color: #b9b9b9;
+}
+
+
+#cardate-div{
+    display: flex;
+    align-items: center;
+}
+
+#cardate-div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cardate-div div span:first-child{
+    font-size: 1.88vw;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+#cardate-div div span:last-child{
+    line-height: 0.2;
+    font-size: 0.83vw;
+}
+
+#cardate-div img{
+    width: 4.5vw;
+}
+
+
+
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.flex-container {
+    padding: 1.8vw 0.1vw;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gainsboro;
+  border-radius: 1.86vw;
+  align-items: center;
+  margin-bottom: 1.25vw;
+}
+
+.circle-container {
+  width: 6.25vw;
+  height: 6.25vw;
+  background-color: white ;
+  border: 2px solid orange;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+  font-family: Arial, sans-serif;
+}
+
+.rounded-rectangle {
+  width: 10.4vw;
+  height: 6.86vw;
+  background-color: white ;
+  border: 2px solid #0f96cb;
+  border-radius: 2.625vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  #0f96cb;
+  font-family: Arial, sans-serif;
+}
+
+.date-time {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-bold {
+    font-weight: bold;
+
+}
